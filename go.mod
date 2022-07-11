@@ -7,7 +7,7 @@ replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
 require (
 	code.byted.org/kite/kitex v1.9.3
 	github.com/apache/thrift v0.13.0
-	github.com/cloudwego/kitex v0.3.2
+	github.com/daidai21/kitex v0.3.1-0.20220711124531-ba850cf0f7af
 )
 
 require (
@@ -49,6 +49,7 @@ require (
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible // indirect
 	github.com/bytedance/gopkg v0.0.0-20220509134931-d1878f638986 // indirect
 	github.com/choleraehyq/pid v0.0.13 // indirect
+	github.com/cloudwego/kitex v0.3.2 // indirect
 	github.com/cloudwego/netpoll v0.2.4 // indirect
 	github.com/cloudwego/thriftgo v0.1.7 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect

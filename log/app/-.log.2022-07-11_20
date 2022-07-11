@@ -26427,3 +26427,36 @@ Info 2022-07-11 20:40:04,628 v1(7) main.go:19 10.85.168.54 - - default - 0 echo 
 Info 2022-07-11 20:40:04,628 v1(7) main.go:19 10.85.168.54 - - default - 0 echo called
 Info 2022-07-11 20:40:04,628 v1(7) main.go:19 10.85.168.54 - - default - 0 echo called
 Info 2022-07-11 20:40:04,628 v1(7) main.go:19 10.85.168.54 - - default - 0 echo called
+Info 2022-07-11 20:46:10,638 v1(7) debug.go:126 10.85.168.54 - - default - 0 shutting down debug server
+Info 2022-07-11 20:47:32,146 v1(7) client.go:65 10.85.168.54 - - default - 0 not prod environment, skip collect version info
+Info 2022-07-11 20:47:32,146 v1(7) client.go:65 10.85.168.54 - - default - 0 not prod environment, skip collect version info
+Info 2022-07-11 20:47:32,146 v1(7) client.go:65 10.85.168.54 - - default - 0 not prod environment, skip collect version info
+Info 2022-07-11 20:47:32,404 v1(7) tracer_option.go:523 10.85.168.54 - - default - 0 [bytedtrace] The reporter is agent reporter as default.
+Info 2022-07-11 20:47:33,174 v1(7) debug.go:113 10.85.168.54 - - default - 0 starting debug server
+Info 2022-07-11 20:47:33,175 v1(7) server.go:63 10.85.168.54 - - default - 0 debug server listen at: [::]:18888
+Info 2022-07-11 20:47:32,145 v1(7) dumper.go:69 10.85.168.54 - - default - 0 validate file failed: path=conf/kitex_remote_config.json error=open conf/kitex_remote_config.json: no such file or directory, try to fallback to path=/tmp/-_kitex_remote_config.json
+Info 2022-07-11 20:47:32,396 v1(7) provider.go:169 10.85.168.54 - - default - 0 KITEX: remote config changed, prepare to reload.
+Info 2022-07-11 20:47:33,165 v1(7) server.go:77 10.85.168.54 - - default - 0 KITEX: server listen at addr=[::]:8888
+Info 2022-07-11 20:48:32,760 v1(7) configurator.go:66 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[tracer] starting synConfig...
+Info 2022-07-11 20:48:32,760 v1(7) configurator.go:70 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[tracer] synConfigs success.
+Info 2022-07-11 20:48:32,760 v1(7) configurator.go:66 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[circuit breaker] starting synConfig...
+Info 2022-07-11 20:48:32,760 v1(7) configurator.go:70 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[circuit breaker] synConfigs success.
+Info 2022-07-11 20:48:32,760 v1(7) configurator.go:66 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[sampler] starting synConfig...
+Info 2022-07-11 20:48:32,760 v1(7) configurator.go:70 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[sampler] synConfigs success.
+Info 2022-07-11 20:53:59,304 v1(7) debug.go:126 10.85.168.54 - - default - 0 shutting down debug server
+Info 2022-07-11 20:54:05,388 v1(7) client.go:65 10.85.168.54 - - default - 0 not prod environment, skip collect version info
+Info 2022-07-11 20:54:05,388 v1(7) client.go:65 10.85.168.54 - - default - 0 not prod environment, skip collect version info
+Info 2022-07-11 20:54:05,388 v1(7) client.go:65 10.85.168.54 - - default - 0 not prod environment, skip collect version info
+Info 2022-07-11 20:54:05,814 v1(7) tracer_option.go:523 10.85.168.54 - - default - 0 [bytedtrace] The reporter is agent reporter as default.
+Info 2022-07-11 20:54:06,585 v1(7) debug.go:113 10.85.168.54 - - default - 0 starting debug server
+Info 2022-07-11 20:54:06,587 v1(7) server.go:63 10.85.168.54 - - default - 0 debug server listen at: [::]:18888
+Info 2022-07-11 20:54:05,388 v1(7) dumper.go:69 10.85.168.54 - - default - 0 validate file failed: path=conf/kitex_remote_config.json error=open conf/kitex_remote_config.json: no such file or directory, try to fallback to path=/tmp/-_kitex_remote_config.json
+Info 2022-07-11 20:54:05,809 v1(7) provider.go:169 10.85.168.54 - - default - 0 KITEX: remote config changed, prepare to reload.
+Info 2022-07-11 20:54:06,579 v1(7) server.go:77 10.85.168.54 - - default - 0 KITEX: server listen at addr=[::]:8888
+Info 2022-07-11 20:56:05,931 v1(7) configurator.go:66 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[tracer] starting synConfig...
+Info 2022-07-11 20:56:05,931 v1(7) configurator.go:70 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[tracer] synConfigs success.
+Info 2022-07-11 20:56:05,931 v1(7) configurator.go:66 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[circuit breaker] starting synConfig...
+Info 2022-07-11 20:56:05,931 v1(7) configurator.go:70 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[circuit breaker] synConfigs success.
+Info 2022-07-11 20:56:05,931 v1(7) configurator.go:66 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[sampler] starting synConfig...
+Info 2022-07-11 20:56:05,931 v1(7) configurator.go:70 10.85.168.54 - - default - 0 [bytedtrace] NameSpace[sampler] synConfigs success.
+Warn 2022-07-11 20:56:18,387 v1(7) config_center.go:395 10.85.168.54 - - default - 0 KITEX: get remote config category=AccCtrl failed, error=KITEX: fetch remote config [AccCtrl] failed, url [http://10.225.137.76:9889/api/v2/govern/list?category=AccCtrl&callee=-&callee_cluster=default&hash=be851a7ebbf8a646], error[Get "http://10.225.137.76:9889/api/v2/govern/list?category=AccCtrl&callee=-&callee_cluster=default&hash=be851a7ebbf8a646": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
