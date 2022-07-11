@@ -1,0 +1,6 @@
+---
+clients:
+  - idl:
+      type: local
+      path: example.thrift
+    args: {}
