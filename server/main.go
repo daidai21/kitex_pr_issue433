@@ -17,7 +17,7 @@ type EchoImpl struct{}
 // Echo implements the Echo interface.
 func (s *EchoImpl) Echo(ctx context.Context, req *api.Request) (resp *api.Response, err error) {
 	klog.Info("echo called")
-	return &api.Response{Message: req.Message[0]}, nil
+	return &api.Response{Message: "123"}, nil
 }
 
 func main() {
