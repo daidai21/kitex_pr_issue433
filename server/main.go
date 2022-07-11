@@ -4,7 +4,6 @@ import (
 	"context"
 	"log"
 
-	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/daidai21/kitex_pr_issue433/kitex_gen/api"
 	"github.com/daidai21/kitex_pr_issue433/kitex_gen/api/echo"
 )
@@ -16,7 +15,7 @@ type EchoImpl struct{}
 
 // Echo implements the Echo interface.
 func (s *EchoImpl) Echo(ctx context.Context, req *api.Request) (resp *api.Response, err error) {
-	klog.Info("echo called")
+	//klog.Info("echo called")
 	return &api.Response{Message: "123"}, nil
 }
 
